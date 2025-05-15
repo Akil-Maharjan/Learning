@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <h1> Contact Us</h1>
+    <form action="mailto:rabyn900@gmail.com" method="post" enctype="text/plain">
+        <p><label for="email">Email:</label>
+            <input type="text" id="email" name="q" required placeholder="@gamil.com">
+        </p>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" id="name" name="username" required><br><br>
+        </p>
+        <p>
+        <h3>Select your Gender</h3>
+        <label for="male">Male</label>
+        <input value="male" type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input value="female" type="radio" name="gender" id="female">
+        </p>
+        <p></p>
+        <h3>Select your Habits</h3>
+        <label for="dance">Dance</label>
+        <input value="male" type="checkbox" name="habits" id="dance">
+        <label for="sing">Sing</label>
+        <input value="female" type="checkbox" name="habits" id="sing">
+        <label for="read">Read</label>
+        <input value="read" type="checkbox" name="habits" id="read">
+        </p>
+        <p>
+        <h3>Select your Country</h3>
+        <select name="country" id="country">
+            <option value="nepal">Nepal</option>
+            <option value="india">India</option>
+            <option value="bhutan">Bhutan</option>
+            <option value="srilanka">Srilanka</option>
+            <optgroup label="Select Asian Country">
+                <option value="china">China</option>
+                <option value="japan">Japan</option>
+                <option value="korea">Korea</option>
+            </optgroup>
+        </select>
+        </p>
+        <p>
+        <h3>Write your message</h3>
+        <textarea name="msg" id="message" cols="50" rows="7" placeholder="Write your message here"></textarea>
+        </p>
+        <p>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </p>
+        <p>
+            <label for="colors">colors</label>
+            <input type="color" id="colors" name="colors" value="#ff0000">
+        </p>
+        <button type="submit" value="Submit">Submit</button><br><br>
+        <button type="reset" value="Submit">Reset</button>
+    </form>
+</body>
+
+</html>
