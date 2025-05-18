@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exile&family=Poetsen+One&display=swap');
+*{
+   font-family: "Poetsen One", sans-serif;
+   font-size: 20px;
+ 
+}
+body{
+    background-color: rgba(0, 0, 0, 0.438);
+    
+    color: white
+}
+.box>h1{
+    color: hsla(0, 100%, 50%, 0.466);
+    font-size: 20px;
+    text-shadow: 1px 1px 5px blue;
+    color: red;
+    font-size: 20px;
+    opacity: 0.5;
+    
+}
+p::after{
+    content: "Sello";
+    color: red;
+    font-size: 20px;
+}
+
+.text{
+    color: green;
+    font-size: 50px;    
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline 5px red;
+    text-underline-offset: 5px;
+      
+}
+li{
+    font-family: "Exile", sans-serif;
+}
+img[alt="image1"]{
+    width: 100px;
+    height: 100px;
+}
+input[type="text"]:focus{
+    color: blue;
+}
+input[type="email"]:focus{
+    color: green;
+}
+input[type="checkbox"]:checked{
+    accent-color: red;
+}
+.bx{
+   height: 200px;
+   width: 200px;
+   background-color: red;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.bx1{
+   height: 200px;
+   width: 200px;
+   background-color: red;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.bx{
+   height: 200px;
+   width: 200px;
+   background-color: red;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}.bx{
+   height: 200px;
+   width: 200px;
+   background-color: red;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: blue;
+    border-radius: 10px;
+}
+
+.bx2{
+   height: 200px;
+   width: 200px;
+   background-color: blue;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    color: green;
+    border-radius: 10px;
+
+}
+.bx3{
+   height: 200px;
+   width: 200px;
+   background-color: green;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    color: red;
+    border-radius: 10px;
+
+}
