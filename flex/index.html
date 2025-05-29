@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .content{
+            display: flex;;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .box{
+            width: 200px;
+            height: 250px;
+            background-color: hsla(211, 100%, 50%, 0.507);
+            border-radius: 20px;
+            margin: 5px;
+            text-align: center;
+            flex-basis: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        .item1{
+            background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+         .bx{
+            display: flex;
+            max-width: 600px;
+            border: 1px solid black;
+            gap: 5px;
+            flex-wrap: wrap;
+         }
+         input[type="email"]{
+            flex-basis: 200px;
+            border: 1px solid green;
+            flex-grow: 1;
+         }
+          input[type="password"]{
+            flex-basis: 200px;
+            border: 1px solid purple;
+            flex-grow: 1;
+         }
+         button{
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+            flex-basis: 100px;
+            flex-grow: 1;
+         }
+        
+    </style>
+</head>
+<body>
+    <!-- <div class="content">
+        <div class="box item1">
+            <h1>Akil Maharjan</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <div class="box item2">
+            <h1>Akil Maharjan</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <div class="box item3">
+            <h1>Someone</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <div class="box item4">
+            <h1>John</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <div class="box item5">
+            <h1>No One</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <div class="box item6">
+            <h1>God</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <div class="box item7">
+            <h1>Ghost</h1>
+            <span>Full Stack Developer</span>
+        </div>
+        <div class="box item7">
+            <h1>Akil Maharjan</h1>
+            <span>Full Stack Developer</span>
+        </div>
+    </div> -->
+<i class="fa-solid fa-envelope"></i>
+    <div class="bx">
+       <input type="email" name="email" placeholder="Email" id="email">
+        <input type="password" name="password" placeholder="Password" id="password">
+        <button>Submit</button>
+    </div>
+</body>
+</html>

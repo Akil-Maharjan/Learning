@@ -3,11 +3,11 @@
 *{
    font-family: "Poetsen One", sans-serif;
    font-size: 20px;
- 
+   box-sizing: border-box;
+   
 }
 body{
     background-color: rgba(0, 0, 0, 0.438);
-    
     color: white
 }
 .box>h1{
@@ -50,6 +50,7 @@ input[type="email"]:focus{
 input[type="checkbox"]:checked{
     accent-color: red;
 }
+ /* box Model */
 .bx{
    height: 200px;
    width: 200px;
@@ -68,6 +69,7 @@ input[type="checkbox"]:checked{
     display: flex;
     justify-content: center;
 }
+   
 .bx{
    height: 200px;
    width: 200px;
@@ -86,12 +88,13 @@ input[type="checkbox"]:checked{
     justify-content: center;
     color: blue;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .bx2{
    height: 200px;
    width: 200px;
-   background-color: blue;
+   background-color: hsla(240, 100%, 50%, 0.438);
     text-align: center;
     align-items: center;
     display: flex;
@@ -99,6 +102,8 @@ input[type="checkbox"]:checked{
     margin-left: 200px;
     color: green;
     border-radius: 10px;
+    border-top: 2px solid hsla(0, 100%, 50%, 0);
+    border-radius: 50% 10px;   
 
 }
 .bx3{
@@ -114,3 +119,6 @@ input[type="checkbox"]:checked{
     border-radius: 10px;
 
 }
+
+/* positions */
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            display: inline;
+            background-color: #007BFF;
+        }
+        span {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+        .bx{
+            margin-top: 80px;
+            height: 200px;
+            width: 200px;
+            background-color: hsla(211, 100%, 50%, 0.507);
+            border-radius: 20px;
+            animation: cube 2s   linear  0s infinite; 
+            transition: all 3s  ease-in-out 0s;
+        }
+        
+        .bx:hover{
+            width: 300px;
+            background-color: hsl(211, 100%, 50%);
+            transform: rotate(360deg) scale(1.5) translate(100px, 100px);
+            box-shadow: 0px 0px 20px 10px hsl(211, 100%, 50%);
+        }
+        @keyframes cube {
+            0%{
+             transform: translateX(0px) translateY(0px);   
+             background-color: hsla(211, 100%, 50%, 0.507);
+            }
+            25%{
+                 transform: translateX(500px) ;
+                background-color: hsla(211, 100%, 50%, 0.7);
+            }
+            50%{
+               
+                transform: translateX(500px) translateY(500px);
+            }
+            75%{
+                
+                transform:  translateY(500px); 
+                background-color: hsla(211, 100%, 50%, 0.9);
+            }
+            100%{
+                transform: translateX(0px) translateY(0px); 
+                background-color: hsla(211, 100%, 50%, 1);
+                
+            }
+    
+        }
+        </style>
+</head>
+<body>
+    <h1>Block</h1>
+    <span>inline</span>
+    <span>inline</span>
+    <div class="bx"></div>
+</body>
+</html>
